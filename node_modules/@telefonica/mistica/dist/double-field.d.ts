@@ -1,0 +1,20 @@
+import * as React from 'react';
+import type CreditCardExpirationField from './credit-card-expiration-field';
+import type CvvField from './cvv-field';
+import type DateField from './date-field';
+import type DecimalField from './decimal-field';
+import type EmailField from './email-field';
+import type IntegerField from './integer-field';
+import type PasswordField from './password-field';
+import type PhoneNumberField from './phone-number-field';
+import type Select from './select';
+import type TextField from './text-field';
+import type { RendersElement } from './utils/types';
+type Field = RendersElement<typeof TextField> | RendersElement<typeof Select> | RendersElement<typeof CvvField> | RendersElement<typeof CreditCardExpirationField> | RendersElement<typeof DecimalField> | RendersElement<typeof IntegerField> | RendersElement<typeof DateField> | RendersElement<typeof PhoneNumberField> | RendersElement<typeof PasswordField> | RendersElement<typeof EmailField>;
+type Props = {
+    fullWidth?: boolean;
+    children: Field | [Field, Field];
+    layout?: '50/50' | '40/60' | '60/40';
+};
+declare const DoubleField: React.FC<Props>;
+export default DoubleField;

@@ -1,0 +1,11 @@
+export declare const ANIMATION_DURATION_MS = 200;
+export declare const wrapper: string;
+export declare const modalOpacityLayer: string;
+export declare const closedOpactityLayer: string;
+export declare const modalCloseButtonContainer: string;
+export declare const modalContent: string;
+export declare const closedModalContent: string;
+export declare const variants: Record<"default" | "dialog", string>;
+export declare const dialogContent: string;
+export declare const dialogActions: string;
+export declare const iconContainer: string;

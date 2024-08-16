@@ -1,0 +1,11 @@
+export declare const hasTrashIcon: string;
+export declare const isButtonDisabled: string;
+export declare const counter: string;
+export declare const disabled: string;
+export declare const valueContainer: string;
+export declare const buttonContainer: string;
+export declare const button: string;
+export declare const defaultButtonIcon: string;
+export declare const trashButtonIcon: string;
+export declare const decreaseButtonIcon: string;
+export declare const buttonBackground: string;

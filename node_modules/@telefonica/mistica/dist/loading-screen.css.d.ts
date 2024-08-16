@@ -1,0 +1,11 @@
+export declare const loadingScreen: string;
+export declare const inOutAnimationMs = 500;
+export declare const screenBackgroundAnimated: string;
+export declare const screenBackground: Record<"inverse" | "default", string>;
+export declare const screenBackgroundFadeOut: string;
+export declare const loadingScreenChildren: string;
+export declare const loadingScreenText: string;
+export declare const loadingScreenTextAnimated: string;
+export declare const loadingScreenTextAnimatedOut: string;
+export declare const pulseLogo: string;
+export declare const logo: string;
