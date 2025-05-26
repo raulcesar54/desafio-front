@@ -1,6 +1,4 @@
-# FIGMA Desnevolvido por mim para o desafio (Raul Souza)
 
-https://www.figma.com/design/7gPBFmbqWcSCCT0AgOumhe/Untitled?node-id=0-1&t=3SzRZR0MymPKXhqE-0
 
 # Desafio Front-end Agrotis
 
